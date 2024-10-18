@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+  background-color: #3498db;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.container .card {
+  background-color: #2ecc71;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+.container .card:hover {
+  transform: translateY(-10px);
+}
+.container .card h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.container .card p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.container .card button {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  color: #2ecc71;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.container .card button:hover {
+  background-color: #54d98c;
+}/*# sourceMappingURL=my-component.component.css.map */
